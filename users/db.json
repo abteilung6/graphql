@@ -11,10 +11,23 @@
       "firstName": "Alex",
       "age": 40,
       "companyId": "2"
+    },
+    {
+      "firstName": "Steven",
+      "age": 29,
+      "id": "ArYhBrW"
     }
   ],
   "companies": [
-    { "id": 1, "name": "Apple", "description": "iphone" },
-    { "id": 2, "name": "Google", "description": "search" }
+    {
+      "id": 1,
+      "name": "Apple",
+      "description": "iphone"
+    },
+    {
+      "id": 2,
+      "name": "Google",
+      "description": "search"
+    }
   ]
 }
