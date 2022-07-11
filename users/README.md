@@ -14,7 +14,7 @@ fragment companyDetails on Company {
 }
 ```
 
-mutation
+add mutation
 
 ```
 mutation {
@@ -22,6 +22,16 @@ mutation {
     id,
     firstName,
     age
+  }
+}
+```
+
+delete mutation
+
+```
+mutation {
+  deleteUser(id: "23") {
+    id
   }
 }
 ```
